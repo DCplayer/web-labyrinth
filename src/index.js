@@ -1,8 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './App.jsx'
+import React from 'react'; 
+import ReactDom from 'react-dom'; 
 
-ReactDOM.render(
-	<App />, 
-	document.getElementById('root')
-	)
+class Labirynth extends React.Component{
+	constructor(props){
+		super(props)
+
+		this.state = {
+			width: 10, 
+			height: 10
+		}
+	}
+}
+
+ReactDom.render(<Labirynth/ >, document.getElementById("root")); 
