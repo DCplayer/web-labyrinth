@@ -1,0 +1,25 @@
+.maze{
+  width: 621px;
+  height: 621px;
+  display: grid;
+  grid-template-columns: repeat(31, 31px); 
+  grid-template-rows: repeat (21, 31px);  
+}
+
+.pared{
+  width: 31px;
+  height: 31px;
+  background: url(./pared.png);
+}
+
+.piso{
+  width: 31px;
+  height: 31px;
+  background-image: url("./piso.png");
+}
+
+.final{
+  width:31px;
+  height: 31px;
+  background-image: url("./final.png");
+}
